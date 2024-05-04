@@ -556,5 +556,5 @@ class MetaPruner:
             # create pruning group
             group = self.DG.get_pruning_group(
                 module, pruning_fn, pruning_indices)
-            if self.DG.check_pruning_group(group):
-                yield group 
+            #if self.DG.check_pruning_group(group):
+            yield group 
